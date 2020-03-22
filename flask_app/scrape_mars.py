@@ -12,15 +12,15 @@ import datetime as dt
 # Mac
 #################################################
 # Set Executable Path & Initialize Chrome Browser
-executable_path = {"executable_path": "/usr/local/bin/chromedriver"}
-browser = Browser("chrome", **executable_path, headless=False)
+# executable_path = {"executable_path": "/usr/local/bin/chromedriver"}
+# browser = Browser("chrome", **executable_path, headless=False)
 
 #################################################
 # Windows
 #################################################
 # Set Executable Path & Initialize Chrome Browser
-# executable_path = {"executable_path": "./chromedriver.exe"}
-# browser = Browser("chrome", **executable_path)
+executable_path = {"executable_path": "./chromedriver.exe"}
+browser = Browser("chrome", **executable_path)
 
 
 #################################################
